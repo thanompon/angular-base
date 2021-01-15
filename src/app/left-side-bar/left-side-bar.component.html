@@ -1,0 +1,14 @@
+<div class="sidebar-container">
+	<div class="sidebar-logo">
+		Project Name
+	</div>
+	<ul class="sidebar-navigation">
+		<li class="header">Navigation</li>
+		<li *ngFor="let item of _menubar | keyvalue">
+			<a routerLink={{item.value.url}}>
+				<i class="{{item.value.icon}}" aria-hidden="true"></i>
+				{{ item.value.title }}
+			</a>
+		</li>
+	</ul>
+</div>

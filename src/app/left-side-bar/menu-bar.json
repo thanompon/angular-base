@@ -1,0 +1,26 @@
+[
+    {
+        "order": 1,
+        "title": "Homepage",
+        "icon": "fa fa-home",
+        "url": "homepage"
+    },
+    {
+        "order": 2,
+        "title": "Dashboard",
+        "icon": "fa fa-home",
+        "url": "dashboard"
+    },
+    {
+        "order": 3,
+        "title": "Product List",
+        "icon": "fa fa-home",
+        "url": "product-list"
+    },
+    {
+        "order": 4,
+        "title": "Product Category",
+        "icon": "fa fa-home",
+        "url": "product-category"
+    }
+]
